@@ -1,7 +1,15 @@
 let userInfo = {
     name: "Maria",
     age: 19,
-};
+    "like JS" : true
+}
 
 console.log(userInfo);
-console.log(userInfo.name);
+
+delete userInfo.age;
+
+console.log(userInfo);
+
+delete userInfo["like JS"];
+
+console.log(userInfo);

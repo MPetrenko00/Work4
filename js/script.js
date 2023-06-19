@@ -6,10 +6,6 @@ let userInfo = {
 
 console.log(userInfo);
 
-delete userInfo.age;
-
-console.log(userInfo);
-
-delete userInfo["like JS"];
+userInfo.age = 20;
 
 console.log(userInfo);

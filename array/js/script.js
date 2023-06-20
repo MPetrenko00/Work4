@@ -1,12 +1,12 @@
 let arrOne = [
     "Masha",
     {
-        type: JS,
+        type: "JS",
         age: 19
     },
     true,
     function(){
-        console.log('Hello, I am Mariia')
+        console.log('Hello, I am Mariia');
     }
 ];
 

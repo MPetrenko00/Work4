@@ -24,3 +24,12 @@ let matrix = [
 ];
 console.log(matrix);
 console.log(matrix[0][1]);
+
+let arr = ['огірок','помідо','кавун',];
+
+//indexOf
+console.log(arr.indexOf('огірок'));
+console.log(arr.indexOf('цибуля'));
+
+//includes
+console.log(arr.includes('огірок'));

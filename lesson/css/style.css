@@ -1,0 +1,6 @@
+@import url('reset.css');
+
+button {
+    margin: 0 auto;
+    display: block;
+}

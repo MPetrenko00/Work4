@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="lesson">
-       <!--<button onclick="console.log('Клік!')" type="button" class="button">Натисни мене</button>-->
-       <button type="button" class="button">Натисни мене</button>
+    <div class="wrapper">
+        <div class="textarea">
+            <textarea autocomplete="off" maxlength="30" name="form[]" class="textarea__item"></textarea>
+            <div class="textarea__counter">Залишилось<span></span>символів</div>
+        </div>
+        
+        <div class="lesson">
+            <!--<button onclick="console.log('Клік!')" type="button" class="button">Натисни мене</button>-->
+            <button type="button" class="button">Натисни мене</button>
+        </div>
     </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
